@@ -1,0 +1,71 @@
+.followers {
+  display: flex;
+  gap: 10px; /* Space between the <p> tags */
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  gap: 10px; /* Space between followers and bio */
+}
+
+.bio {
+  display: flex;
+  justify-content: space-between; /* Space between the <p> tag and button */
+  align-items: center; /* Align items vertically */
+}
+
+.bio p {
+  margin-right: 20px; /* Add space between the <p> tag and button */
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.profile-container {
+  flex-grow: 1; /* Make this section take up as much space as possible */
+}
+
+.logout-button-container {
+  display: flex;
+  justify-content: flex-end; /* Align the button to the end of the container */
+}
+
+.favorite-meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  margin-top: 20px;
+}
+
+.meal-card {
+  flex: 1 1 calc(48% - 1%);
+  margin-bottom: 20px;
+}
+
+.meal-image {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.meal-card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.meal-description {
+  text-align: left;
+  margin-top: 10px;
+}
